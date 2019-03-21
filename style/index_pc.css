@@ -1,44 +1,42 @@
-@media handheld and (min-width: 20em), screen and (min-width: 20em) {
+@media screen and (min-width: 800px) {
+
+
 body {
-    background-image: url('../src/image/BG.PNG');
-    background-size: 100%;
+    background-image: none;
     background-repeat: no-repeat;
+    background-size: 100%;
     background-color: #fff;
-    background-position: 0 -3rem;
-    /* 设置背景图片的起始位置 */
-    overflow: hidden;
-    /* 当盒子溢出时内容会被修剪，并且其余内容是不可见的。 */
+    margin: 0;
+    padding: 0;
 }
 
 .search {
-    width: 90%;
-    margin: 40% auto 0;
+    margin: 5% 0 0 0;
+    width: 100%;
 }
 
 .search .logo {
-    width: 55%;
+    width: 35%;
     margin: 0 auto;
 }
 
 .search .logo img {
     width: 100%;
-    height: 100%;
 }
 
 .search .search_form {
-    width: 100%;
-    margin: 0 auto 4% 0;
+    width: 50%;
+    margin: 1% auto 3%;
     position: relative;
 }
 
 .search .search_form form {
     width: 100%;
-    height: 100%;
 }
 
 .search .search_form form .text {
     width: 100%;
-    height: 11vw;
+    height: 3.5vw;
     background: none;
     color: #666;
     font-size: 1rem;
@@ -48,33 +46,31 @@ body {
     border: none;
     border-radius: 3rem;
     box-shadow: 0 0 0.5rem 0.1rem rgb(210, 210, 210);
-    z-index: 1;
     outline: none;
 }
+
 .search .search_form form .button {
     width: 10%;
     height: 100%;
+    font-size: 1.5em;
     background: none;
     border: none;
-    position: absolute;
-    margin: 0 2%;
     outline: none;
+    position: absolute;
     top: 0;
     right: 0;
-    font-size: 1rem;
-    z-index: 2; 
 }
 
 .nav {
-    width: 80%;
-    margin: 7% auto;
+    width: 30%;
+    margin: 0 auto;
     display: flex;
     flex: 1;
 }
 
 .nav .box {
-    width: 25%;
     position: relative;
+    z-index: 1;
 }
 
 .nav .box img {
@@ -85,31 +81,28 @@ body {
 
 .nav .box p {
     text-align: center;
-    font-size: 0.8rem;
-    color: #555;
     display: block;
-    margin: 5% auto;
+    margin: 5% 0;
 }
 
 .nav .box a {
     width: 100%;
     height: 100%;
+    z-index: 2;
     position: absolute;
-    top: 0;
     left: 0;
+    top: 0;
 }
 
 .bottom {
     width: 100%;
-    /* position: fixed;
-    bottom: 2rem;
-    left: 0; */
-    margin: 40% 0 0 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .bottom p {
+    font-size: 1.5em;
     text-align: center;
-    font-size: 1.3rem;
-    color: #999;
 }
 }
