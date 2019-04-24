@@ -51,7 +51,7 @@ body {
     z-index: 1;
     outline: none;
 }
-.search .search_form form .button {
+.search .search_form form .submit {
     width: 10%;
     height: 100%;
     background: none;
@@ -97,19 +97,5 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-}
-
-.bottom {
-    width: 100%;
-    /* position: fixed;
-    bottom: 2rem;
-    left: 0; */
-    margin: 40% 0 0 0;
-}
-
-.bottom p {
-    text-align: center;
-    font-size: 1.3rem;
-    color: #999;
 }
 }

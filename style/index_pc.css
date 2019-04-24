@@ -5,7 +5,7 @@ body {
     background-image: none;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: #fff;
+    background-color: #FFF;
     margin: 0;
     padding: 0;
 }
@@ -49,17 +49,14 @@ body {
     outline: none;
 }
 
-.search .search_form form .button {
+.search .search_form form .submit {
     width: 10%;
     height: 100%;
-    font-size: 1.8rem;
-    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
     background: none;
     border: none;
     outline: none;
-    padding: 0;
-    margin: 0;
-    margin: auto 0;
     position: absolute;
     top: 0;
     right: 0;
@@ -96,17 +93,5 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-}
-
-.bottom {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
-
-.bottom p {
-    font-size: 1.5em;
-    text-align: center;
 }
 }
